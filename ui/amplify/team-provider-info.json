@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyhotelbooking-dev-130234-authRole",
+      "UnauthRoleArn": "arn:aws:iam::150386260201:role/amplify-amplifyhotelbooking-dev-130234-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::150386260201:role/amplify-amplifyhotelbooking-dev-130234-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-amplifyhotelbooking-dev-130234-deployment",
+      "UnauthRoleName": "amplify-amplifyhotelbooking-dev-130234-unauthRole",
+      "StackName": "amplify-amplifyhotelbooking-dev-130234",
+      "StackId": "arn:aws:cloudformation:us-west-2:150386260201:stack/amplify-amplifyhotelbooking-dev-130234/3b75ea80-3ca4-11ed-885d-0244f3208d41",
+      "AmplifyAppId": "d35l5t9rqq81zv"
+    },
+    "categories": {
+      "auth": {
+        "amplifyhotelbooking49ee0c54": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo "Entered the pre-build phase"
+  build:
+    commands:
+      - echo "Entered build phase"
+      - cd backend/circuscircus
+      - mvn clean install
+  post_build:
+    commands:
+      - echo "Build Completed successfully"
+      - cp target/ReservationApp.jar ../../ReservationApp.jar
+artifacts:
+  files:
+    - ReservationApp.jar
